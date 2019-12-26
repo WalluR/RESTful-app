@@ -7,7 +7,6 @@ const jwt = require('jsonwebtoken');
 const functions = require('./functions/functions.js');
 const app = express();
 const port = 3000;
-//const uri = "mongodb+srv://admin:<admin>@projectbooking-8xmgf.mongodb.net/test?retryWrites=true&w=majority";
 ///lokaali mongoDB asetuksent
 const local = 'mongodb://127.0.0.1:27017/project';
 
